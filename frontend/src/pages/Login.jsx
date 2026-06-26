@@ -28,7 +28,7 @@ export default function Login() {
   return (
     <div className="login-wrap">
       <form className="login-card" onSubmit={handleSubmit}>
-        <h1 className="login-title">Sign In</h1>
+        <h1 className="login-title">Sign IN</h1>
         <p className="login-subtitle">Demo: admin / password</p>
 
         {error && <div className="alert alert-error">{error}</div>}
