@@ -2,10 +2,10 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './AuthContext';
 import { CartProvider } from './CartContext';
 import Navbar from './components/Navbar';
-import DbStatusBanner from './components/DbStatusBanner';
 import Login from './pages/Login';
 import Home from './pages/Home';
 import Cart from './pages/Cart';
+import DbDemo from './pages/DbDemo';
 
 function ProtectedRoute({ children }) {
   const { isAuthenticated } = useAuth();
@@ -19,7 +19,6 @@ function Layout({ children }) {
   const { isAuthenticated } = useAuth();
   return (
     <>
-      <DbStatusBanner />
       {isAuthenticated && <Navbar />}
       <main className="container">{children}</main>
     </>
@@ -44,6 +43,14 @@ function AppRoutes() {
           element={
             <ProtectedRoute>
               <Cart />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/db-demo"
+          element={
+            <ProtectedRoute>
+              <DbDemo />
             </ProtectedRoute>
           }
         />

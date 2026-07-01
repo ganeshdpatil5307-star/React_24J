@@ -54,3 +54,19 @@ export function removeFromCart(productId) {
 export function getDbStatus() {
   return request('/api/db/status');
 }
+
+export function getNotes() {
+  return request('/api/notes');
+}
+
+export function createNote(content) {
+  return request('/api/notes', { method: 'POST', body: JSON.stringify({ content }) });
+}
+
+export function updateNote(id, content) {
+  return request(`/api/notes/${id}`, { method: 'PUT', body: JSON.stringify({ content }) });
+}
+
+export function deleteNote(id) {
+  return request(`/api/notes/${id}`, { method: 'DELETE' });
+}
