@@ -50,3 +50,7 @@ export function removeFromCart(productId) {
     body: JSON.stringify({ productId }),
   });
 }
+
+export function getDbStatus() {
+  return request('/api/db/status');
+}
