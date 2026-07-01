@@ -45,13 +45,7 @@ export default function Home() {
   return (
     <div>
       <h1 className="page-title">Products</h1>
-      <p style={{ color: '#888', fontSize: '13px', marginBottom: '16px' }}>
-        <strong>CRUD Demo</strong> — <span style={{ color: '#3b82f6' }}>READ</span>: products loaded from DB below &nbsp;|&nbsp;
-        <span style={{ color: '#22c55e' }}>CREATE</span>: Add to Cart &nbsp;|&nbsp;
-        <span style={{ color: '#f59e0b' }}>UPDATE</span>: +/- qty in Cart &nbsp;|&nbsp;
-        <span style={{ color: '#ef4444' }}>DELETE</span>: Remove from Cart
-      </p>
-      {error && <div className="alert alert-error">{error}</div>}
+{error && <div className="alert alert-error">{error}</div>}
       {products.length === 0 ? (
         <p className="empty-message">No products available.</p>
       ) : (
