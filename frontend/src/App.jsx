@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Login from './pages/Login';
 import Home from './pages/Home';
 import Cart from './pages/Cart';
+import DbDemo from './pages/DbDemo';
 
 function ProtectedRoute({ children }) {
   const { isAuthenticated } = useAuth();
@@ -42,6 +43,14 @@ function AppRoutes() {
           element={
             <ProtectedRoute>
               <Cart />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/db-demo"
+          element={
+            <ProtectedRoute>
+              <DbDemo />
             </ProtectedRoute>
           }
         />

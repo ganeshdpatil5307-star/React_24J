@@ -21,6 +21,9 @@ export default function Navbar() {
       </Link>
 
       <div className="navbar-actions">
+        <Link to="/db-demo" className="cart-link">
+          DB Demo
+        </Link>
         <Link to="/cart" className="cart-link">
           Cart
           {count > 0 && <span className="cart-badge">{count}</span>}

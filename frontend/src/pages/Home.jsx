@@ -45,7 +45,7 @@ export default function Home() {
   return (
     <div>
       <h1 className="page-title">Products</h1>
-      {error && <div className="alert alert-error">{error}</div>}
+{error && <div className="alert alert-error">{error}</div>}
       {products.length === 0 ? (
         <p className="empty-message">No products available.</p>
       ) : (
