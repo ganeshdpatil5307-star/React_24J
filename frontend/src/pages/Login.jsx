@@ -30,7 +30,7 @@ export default function Login() {
       <form className="login-card" onSubmit={handleSubmit}>
 <<<<<<< HEAD
 <<<<<<< HEAD
-        <h1 className="login-title">Sign Inn</h1>
+        <h1 className="login-title">Sign Innn</h1>
 =======
         <h1 className="login-title">Sign In With New</h1>
 >>>>>>> d4c6ee980270ebc6047993ab2f1872c43fee6f98
