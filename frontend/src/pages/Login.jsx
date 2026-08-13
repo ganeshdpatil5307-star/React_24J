@@ -29,8 +29,7 @@ export default function Login() {
     <div className="login-wrap">
       <form className="login-card" onSubmit={handleSubmit}>
 
-=======
-=======
+
 
         <h1 className="login-title">Sign InNN</h1>
         <p className="login-subtitle">Demo: admin / password</p>
