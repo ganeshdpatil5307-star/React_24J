@@ -28,13 +28,10 @@ export default function Login() {
   return (
     <div className="login-wrap">
       <form className="login-card" onSubmit={handleSubmit}>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <h1 className="login-title">Sign InnnNN</h1>
+<h1 className="login-title">Sign In With New</h1>
 =======
-        <h1 className="login-title">Sign In With New</h1>
->>>>>>> d4c6ee980270ebc6047993ab2f1872c43fee6f98
 =======
+>>>>>>> 2152c1f4f32277537c43468a45b2f4ded9bf1222
         <h1 className="login-title">Sign In</h1>
         <p className="login-subtitle">Demo: admin / password</p>
 
