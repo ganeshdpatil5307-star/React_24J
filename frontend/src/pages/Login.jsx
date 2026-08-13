@@ -28,11 +28,11 @@ export default function Login() {
   return (
     <div className="login-wrap">
       <form className="login-card" onSubmit={handleSubmit}>
-<h1 className="login-title">Sign In With New</h1>
+
 =======
 =======
->>>>>>> 2152c1f4f32277537c43468a45b2f4ded9bf1222
-        <h1 className="login-title">Sign In</h1>
+
+        <h1 className="login-title">Sign InNN</h1>
         <p className="login-subtitle">Demo: admin / password</p>
 
         {error && <div className="alert alert-error">{error}</div>}
