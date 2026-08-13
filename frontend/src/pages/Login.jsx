@@ -30,13 +30,12 @@ export default function Login() {
       <form className="login-card" onSubmit={handleSubmit}>
 <<<<<<< HEAD
 <<<<<<< HEAD
-        <h1 className="login-title">Sign Innnn</h1>
+        <h1 className="login-title">Sign Innn</h1>
 =======
         <h1 className="login-title">Sign In With New</h1>
 >>>>>>> d4c6ee980270ebc6047993ab2f1872c43fee6f98
 =======
         <h1 className="login-title">Sign In</h1>
->>>>>>> a6b8cbbdd8d39a152efa0a4c5fa3d831f83f86d1
         <p className="login-subtitle">Demo: admin / password</p>
 
         {error && <div className="alert alert-error">{error}</div>}

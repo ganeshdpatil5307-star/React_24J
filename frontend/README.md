@@ -76,3 +76,5 @@ Frontend runs on http://localhost:5173
 username: admin
 password: password
 ```
+
+Auto-deploy verification: push to main redeploys this app on NevTan Cloud.
