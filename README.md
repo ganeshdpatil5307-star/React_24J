@@ -77,3 +77,5 @@ mvn spring-boot:run
 username: admin
 password: password
 ```
+
+Deployed on NevTan Cloud with auto-deploy on push to main.
