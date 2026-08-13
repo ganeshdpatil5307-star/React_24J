@@ -78,4 +78,4 @@ username: admin
 password: password
 ```
 
-Deployed on NevTan Cloud with auto-deploy on push to main.
+Deployed on NevTan Cloud with auto-deploy on push to main
